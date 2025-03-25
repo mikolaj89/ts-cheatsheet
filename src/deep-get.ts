@@ -1,4 +1,4 @@
-//can be solved better, using .reduce() method
+//can be done better, using .reduce() method
 function deepGet<T, K extends string>(obj: T, path: K) {
   const fieldsTreeItems = path.split(".");
 
@@ -20,11 +20,11 @@ function deepGet<T, K extends string>(obj: T, path: K) {
 
 // example
 
-// const user10 = {
+// const user = {
 //     id: 1,
 //     profile: {
 //       details: { name: "Alice", age: 25 },
 //     },
 //   };
 
-//   const userName10 = deepGet(user10, "profile.details.name");
+//   const userName = deepGet(user, "profile.details.name");
