@@ -1,6 +1,6 @@
 {
   "tasks": {
-    "dev": "deno run --allow-net --allow-env --allow-read  --watch src/promises/task-queue.ts"
+    "dev": "deno run --allow-net --allow-env --allow-read  --watch src/classes/class-with-callback.ts"
   },
   "compilerOptions": {
     "lib": ["deno.ns", "esnext", "dom"],
